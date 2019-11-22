@@ -24,7 +24,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self addSubview:self.taskCenterView];
-        self.taskCenterView.frame = self.bounds;
     }
     return self;
 }
@@ -39,7 +38,7 @@
 
 - (UIView *)taskCenterView{
     if (!_taskCenterView) {
-        _taskCenterView = [[LMTaskCenterView alloc] init];
+        _taskCenterView = [[LMTaskCenterView alloc] initWithFrame:self.frame];
         _taskCenterView.backgroundColor = [UIColor redColor];
     }
     return _taskCenterView;
