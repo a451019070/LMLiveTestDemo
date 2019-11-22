@@ -16,6 +16,15 @@
 		FBC87A5F2387D26000F7BC71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A5E2387D26000F7BC71 /* main.m */; };
 		FBC87A692387D26000F7BC71 /* LMLiveTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A682387D26000F7BC71 /* LMLiveTestDemoTests.m */; };
 		FBC87A742387D26000F7BC71 /* LMLiveTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A732387D26000F7BC71 /* LMLiveTestDemoUITests.m */; };
+		FBC87A832387D38700F7BC71 /* LMTaskCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A822387D38700F7BC71 /* LMTaskCenterView.m */; };
+		FBC87A862387D3AE00F7BC71 /* LMTaskCenter1View.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A852387D3AE00F7BC71 /* LMTaskCenter1View.m */; };
+		FBC87A892387D3BD00F7BC71 /* LMTaskCenter2View.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A882387D3BD00F7BC71 /* LMTaskCenter2View.m */; };
+		FBC87A8C2387D54700F7BC71 /* LMTaskCenter1ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A8B2387D54700F7BC71 /* LMTaskCenter1ViewManager.m */; };
+		FBC87A8F2387D94F00F7BC71 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A8E2387D94F00F7BC71 /* LiveRoomViewController.m */; };
+		FBC87A922387DAF300F7BC71 /* LMTaskCenterViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A912387DAF300F7BC71 /* LMTaskCenterViewManager.m */; };
+		FBC87A972387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A962387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m */; };
+		FBC87A9A2387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A992387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m */; };
+		FBC87A9D2387E10A00F7BC71 /* LMTaskCenter1BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A9C2387E10A00F7BC71 /* LMTaskCenter1BottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,24 @@
 		FBC87A6F2387D26000F7BC71 /* LMLiveTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMLiveTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC87A732387D26000F7BC71 /* LMLiveTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMLiveTestDemoUITests.m; sourceTree = "<group>"; };
 		FBC87A752387D26000F7BC71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC87A812387D38700F7BC71 /* LMTaskCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenterView.h; sourceTree = "<group>"; };
+		FBC87A822387D38700F7BC71 /* LMTaskCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenterView.m; sourceTree = "<group>"; };
+		FBC87A842387D3AE00F7BC71 /* LMTaskCenter1View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter1View.h; sourceTree = "<group>"; };
+		FBC87A852387D3AE00F7BC71 /* LMTaskCenter1View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter1View.m; sourceTree = "<group>"; };
+		FBC87A872387D3BD00F7BC71 /* LMTaskCenter2View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter2View.h; sourceTree = "<group>"; };
+		FBC87A882387D3BD00F7BC71 /* LMTaskCenter2View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter2View.m; sourceTree = "<group>"; };
+		FBC87A8A2387D54700F7BC71 /* LMTaskCenter1ViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter1ViewManager.h; sourceTree = "<group>"; };
+		FBC87A8B2387D54700F7BC71 /* LMTaskCenter1ViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter1ViewManager.m; sourceTree = "<group>"; };
+		FBC87A8D2387D94F00F7BC71 /* LiveRoomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveRoomViewController.h; sourceTree = "<group>"; };
+		FBC87A8E2387D94F00F7BC71 /* LiveRoomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViewController.m; sourceTree = "<group>"; };
+		FBC87A902387DAF300F7BC71 /* LMTaskCenterViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenterViewManager.h; sourceTree = "<group>"; };
+		FBC87A912387DAF300F7BC71 /* LMTaskCenterViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenterViewManager.m; sourceTree = "<group>"; };
+		FBC87A952387E0EA00F7BC71 /* LMTaskCenter2ViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter2ViewManager.h; sourceTree = "<group>"; };
+		FBC87A962387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter2ViewManager.m; sourceTree = "<group>"; };
+		FBC87A982387E0FA00F7BC71 /* LMTaskCenter1HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter1HeaderView.h; sourceTree = "<group>"; };
+		FBC87A992387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter1HeaderView.m; sourceTree = "<group>"; };
+		FBC87A9B2387E10A00F7BC71 /* LMTaskCenter1BottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter1BottomView.h; sourceTree = "<group>"; };
+		FBC87A9C2387E10A00F7BC71 /* LMTaskCenter1BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter1BottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +137,8 @@
 				FBC87A502387D25F00F7BC71 /* SceneDelegate.m */,
 				FBC87A522387D25F00F7BC71 /* ViewController.h */,
 				FBC87A532387D25F00F7BC71 /* ViewController.m */,
+				FBC87A942387DE5F00F7BC71 /* VC */,
+				FBC87A932387DE4F00F7BC71 /* Manager */,
 				FBC87A552387D25F00F7BC71 /* Main.storyboard */,
 				FBC87A582387D26000F7BC71 /* Assets.xcassets */,
 				FBC87A5A2387D26000F7BC71 /* LaunchScreen.storyboard */,
@@ -135,6 +164,38 @@
 				FBC87A752387D26000F7BC71 /* Info.plist */,
 			);
 			path = LMLiveTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		FBC87A932387DE4F00F7BC71 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FBC87A8D2387D94F00F7BC71 /* LiveRoomViewController.h */,
+				FBC87A8E2387D94F00F7BC71 /* LiveRoomViewController.m */,
+				FBC87A902387DAF300F7BC71 /* LMTaskCenterViewManager.h */,
+				FBC87A912387DAF300F7BC71 /* LMTaskCenterViewManager.m */,
+				FBC87A812387D38700F7BC71 /* LMTaskCenterView.h */,
+				FBC87A822387D38700F7BC71 /* LMTaskCenterView.m */,
+				FBC87A8A2387D54700F7BC71 /* LMTaskCenter1ViewManager.h */,
+				FBC87A8B2387D54700F7BC71 /* LMTaskCenter1ViewManager.m */,
+				FBC87A842387D3AE00F7BC71 /* LMTaskCenter1View.h */,
+				FBC87A852387D3AE00F7BC71 /* LMTaskCenter1View.m */,
+				FBC87A982387E0FA00F7BC71 /* LMTaskCenter1HeaderView.h */,
+				FBC87A992387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m */,
+				FBC87A9B2387E10A00F7BC71 /* LMTaskCenter1BottomView.h */,
+				FBC87A9C2387E10A00F7BC71 /* LMTaskCenter1BottomView.m */,
+				FBC87A952387E0EA00F7BC71 /* LMTaskCenter2ViewManager.h */,
+				FBC87A962387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m */,
+				FBC87A872387D3BD00F7BC71 /* LMTaskCenter2View.h */,
+				FBC87A882387D3BD00F7BC71 /* LMTaskCenter2View.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FBC87A942387DE5F00F7BC71 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +329,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC87A542387D25F00F7BC71 /* ViewController.m in Sources */,
+				FBC87A8C2387D54700F7BC71 /* LMTaskCenter1ViewManager.m in Sources */,
+				FBC87A9A2387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m in Sources */,
+				FBC87A862387D3AE00F7BC71 /* LMTaskCenter1View.m in Sources */,
 				FBC87A4E2387D25F00F7BC71 /* AppDelegate.m in Sources */,
+				FBC87A972387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m in Sources */,
 				FBC87A5F2387D26000F7BC71 /* main.m in Sources */,
 				FBC87A512387D25F00F7BC71 /* SceneDelegate.m in Sources */,
+				FBC87A892387D3BD00F7BC71 /* LMTaskCenter2View.m in Sources */,
+				FBC87A8F2387D94F00F7BC71 /* LiveRoomViewController.m in Sources */,
+				FBC87A832387D38700F7BC71 /* LMTaskCenterView.m in Sources */,
+				FBC87A9D2387E10A00F7BC71 /* LMTaskCenter1BottomView.m in Sources */,
+				FBC87A922387DAF300F7BC71 /* LMTaskCenterViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
