@@ -8,10 +8,12 @@
 
 #import "LMTaskCenterView.h"
 #import "LMTaskCenter1ViewManager.h"
+#import "LMTaskCenter2ViewManager.h"
 
 @interface LMTaskCenterView ()
 
 @property (nonatomic, strong) LMTaskCenter1ViewManager *taskCenter1BGView;
+@property (nonatomic, strong) LMTaskCenter2ViewManager *taskCenter2BGView;
 
 
 @end
@@ -22,8 +24,9 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor = [UIColor redColor];
         [self addSubview:self.taskCenter1BGView];
-        self.taskCenter1BGView.frame = CGRectMake(0, 0, self.frame.size.width/2, self.frame.size.height);
+        [self addSubview:self.taskCenter2BGView];
     }
     return self;
 }
@@ -38,10 +41,16 @@
 
 - (LMTaskCenter1ViewManager *)taskCenter1BGView{
     if (!_taskCenter1BGView) {
-        _taskCenter1BGView = [[LMTaskCenter1ViewManager alloc] init];
-        _taskCenter1BGView.backgroundColor = [UIColor blueColor];
+        _taskCenter1BGView = [[LMTaskCenter1ViewManager alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width/2, self.frame.size.height)];
     }
     return _taskCenter1BGView;
+}
+
+-(LMTaskCenter2ViewManager *)taskCenter2BGView{
+    if (!_taskCenter2BGView) {
+        _taskCenter2BGView = [[LMTaskCenter2ViewManager alloc] initWithFrame:CGRectMake(self.frame.size.width/2, 0, self.frame.size.width/2, self.frame.size.height)];
+    }
+    return _taskCenter2BGView;
 }
 
 @end

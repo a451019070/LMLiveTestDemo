@@ -25,6 +25,10 @@
 		FBC87A972387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A962387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m */; };
 		FBC87A9A2387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A992387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m */; };
 		FBC87A9D2387E10A00F7BC71 /* LMTaskCenter1BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87A9C2387E10A00F7BC71 /* LMTaskCenter1BottomView.m */; };
+		FBC87AA12389059800F7BC71 /* LMTaskCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87AA02389059800F7BC71 /* LMTaskCenterViewController.m */; };
+		FBC87AA42389070B00F7BC71 /* LMTaskCenter1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87AA32389070B00F7BC71 /* LMTaskCenter1ViewController.m */; };
+		FBC87AA7238908BB00F7BC71 /* LMTaskCenter2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87AA6238908BB00F7BC71 /* LMTaskCenter2ViewController.m */; };
+		FBC87AAA2389114B00F7BC71 /* TaskCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC87AA92389114B00F7BC71 /* TaskCenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +85,14 @@
 		FBC87A992387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter1HeaderView.m; sourceTree = "<group>"; };
 		FBC87A9B2387E10A00F7BC71 /* LMTaskCenter1BottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter1BottomView.h; sourceTree = "<group>"; };
 		FBC87A9C2387E10A00F7BC71 /* LMTaskCenter1BottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter1BottomView.m; sourceTree = "<group>"; };
+		FBC87A9F2389059800F7BC71 /* LMTaskCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenterViewController.h; sourceTree = "<group>"; };
+		FBC87AA02389059800F7BC71 /* LMTaskCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenterViewController.m; sourceTree = "<group>"; };
+		FBC87AA22389070B00F7BC71 /* LMTaskCenter1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter1ViewController.h; sourceTree = "<group>"; };
+		FBC87AA32389070B00F7BC71 /* LMTaskCenter1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter1ViewController.m; sourceTree = "<group>"; };
+		FBC87AA5238908BB00F7BC71 /* LMTaskCenter2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMTaskCenter2ViewController.h; sourceTree = "<group>"; };
+		FBC87AA6238908BB00F7BC71 /* LMTaskCenter2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMTaskCenter2ViewController.m; sourceTree = "<group>"; };
+		FBC87AA82389114B00F7BC71 /* TaskCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskCenterViewController.h; sourceTree = "<group>"; };
+		FBC87AA92389114B00F7BC71 /* TaskCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskCenterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +149,8 @@
 				FBC87A502387D25F00F7BC71 /* SceneDelegate.m */,
 				FBC87A522387D25F00F7BC71 /* ViewController.h */,
 				FBC87A532387D25F00F7BC71 /* ViewController.m */,
+				FBC87A8D2387D94F00F7BC71 /* LiveRoomViewController.h */,
+				FBC87A8E2387D94F00F7BC71 /* LiveRoomViewController.m */,
 				FBC87A942387DE5F00F7BC71 /* VC */,
 				FBC87A932387DE4F00F7BC71 /* Manager */,
 				FBC87A552387D25F00F7BC71 /* Main.storyboard */,
@@ -169,8 +183,7 @@
 		FBC87A932387DE4F00F7BC71 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				FBC87A8D2387D94F00F7BC71 /* LiveRoomViewController.h */,
-				FBC87A8E2387D94F00F7BC71 /* LiveRoomViewController.m */,
+				FBC87A9E2389056700F7BC71 /* ManagerVC */,
 				FBC87A902387DAF300F7BC71 /* LMTaskCenterViewManager.h */,
 				FBC87A912387DAF300F7BC71 /* LMTaskCenterViewManager.m */,
 				FBC87A812387D38700F7BC71 /* LMTaskCenterView.h */,
@@ -194,8 +207,23 @@
 		FBC87A942387DE5F00F7BC71 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				FBC87AA82389114B00F7BC71 /* TaskCenterViewController.h */,
+				FBC87AA92389114B00F7BC71 /* TaskCenterViewController.m */,
 			);
 			path = VC;
+			sourceTree = "<group>";
+		};
+		FBC87A9E2389056700F7BC71 /* ManagerVC */ = {
+			isa = PBXGroup;
+			children = (
+				FBC87A9F2389059800F7BC71 /* LMTaskCenterViewController.h */,
+				FBC87AA02389059800F7BC71 /* LMTaskCenterViewController.m */,
+				FBC87AA22389070B00F7BC71 /* LMTaskCenter1ViewController.h */,
+				FBC87AA32389070B00F7BC71 /* LMTaskCenter1ViewController.m */,
+				FBC87AA5238908BB00F7BC71 /* LMTaskCenter2ViewController.h */,
+				FBC87AA6238908BB00F7BC71 /* LMTaskCenter2ViewController.m */,
+			);
+			path = ManagerVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,10 +361,14 @@
 				FBC87A9A2387E0FA00F7BC71 /* LMTaskCenter1HeaderView.m in Sources */,
 				FBC87A862387D3AE00F7BC71 /* LMTaskCenter1View.m in Sources */,
 				FBC87A4E2387D25F00F7BC71 /* AppDelegate.m in Sources */,
+				FBC87AA42389070B00F7BC71 /* LMTaskCenter1ViewController.m in Sources */,
+				FBC87AA7238908BB00F7BC71 /* LMTaskCenter2ViewController.m in Sources */,
 				FBC87A972387E0EA00F7BC71 /* LMTaskCenter2ViewManager.m in Sources */,
 				FBC87A5F2387D26000F7BC71 /* main.m in Sources */,
 				FBC87A512387D25F00F7BC71 /* SceneDelegate.m in Sources */,
 				FBC87A892387D3BD00F7BC71 /* LMTaskCenter2View.m in Sources */,
+				FBC87AAA2389114B00F7BC71 /* TaskCenterViewController.m in Sources */,
+				FBC87AA12389059800F7BC71 /* LMTaskCenterViewController.m in Sources */,
 				FBC87A8F2387D94F00F7BC71 /* LiveRoomViewController.m in Sources */,
 				FBC87A832387D38700F7BC71 /* LMTaskCenterView.m in Sources */,
 				FBC87A9D2387E10A00F7BC71 /* LMTaskCenter1BottomView.m in Sources */,

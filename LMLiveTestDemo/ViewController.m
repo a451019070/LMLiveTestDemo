@@ -8,6 +8,12 @@
 
 #import "ViewController.h"
 #import "LiveRoomViewController.h"
+#import "LMTaskCenterViewController.h"
+#import "LMTaskCenter1ViewController.h"
+#import "LMTaskCenter2ViewController.h"
+
+#import "TaskCenterViewController.h"
+
 
 @interface ViewController ()
 
@@ -32,6 +38,15 @@
 
 - (void)btnHandleEvent:(UIButton *)btn{
     LiveRoomViewController *VC = [[LiveRoomViewController alloc] init];
+    
+//    LMTaskCenterViewController *VC = [[LMTaskCenterViewController alloc] init];
+    
+//    LMTaskCenter1ViewController *VC = [[LMTaskCenter1ViewController alloc] init];
+    
+//    LMTaskCenter2ViewController *VC = [[LMTaskCenter2ViewController alloc] init];
+    
+//    TaskCenterViewController *VC = [[TaskCenterViewController alloc] init];
+    
     [self.navigationController pushViewController:VC animated:YES];
 }
 

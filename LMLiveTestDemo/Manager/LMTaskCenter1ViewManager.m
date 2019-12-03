@@ -18,20 +18,18 @@
 
 @implementation LMTaskCenter1ViewManager
 
-- (instancetype)init
+- (instancetype)initWithFrame:(CGRect)frame
 {
-    self = [super init];
+    self = [super initWithFrame:frame];
     if (self) {
         [self addSubview:self.taskCenter1View];
-        self.taskCenter1View.frame = self.bounds;
     }
     return self;
 }
 
-
 - (LMTaskCenter1View *)taskCenter1View{
     if (!_taskCenter1View) {
-        _taskCenter1View = [[LMTaskCenter1View alloc] init];
+        _taskCenter1View = [[LMTaskCenter1View alloc] initWithFrame:self.bounds];
     }
     return _taskCenter1View;
 }

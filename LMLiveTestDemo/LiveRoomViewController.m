@@ -8,11 +8,14 @@
 
 #import "LiveRoomViewController.h"
 #import "LMTaskCenterViewManager.h"
+#import "TaskCenterViewController.h"
 
 
 @interface LiveRoomViewController ()
 
 @property (nonatomic, strong) LMTaskCenterViewManager *taskCenterBGView;
+
+@property (nonatomic, strong) TaskCenterViewController *taskCenterVC;
 
 
 @end
@@ -24,6 +27,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:self.taskCenterBGView];
+//    [self.view addSubview:self.taskCenterVC.view];
 }
 
 /*
@@ -40,9 +44,16 @@
 - (LMTaskCenterViewManager *)taskCenterBGView{
     if (!_taskCenterBGView) {
         _taskCenterBGView = [[LMTaskCenterViewManager alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height/2, self.view.frame.size.width, self.view.frame.size.height/2)];
-        _taskCenterBGView.backgroundColor = [UIColor redColor];
     }
     return _taskCenterBGView;
+}
+
+- (TaskCenterViewController *)taskCenterVC{
+    if (!_taskCenterVC) {
+        _taskCenterVC = [[TaskCenterViewController alloc] init];
+        _taskCenterVC.view.frame = CGRectMake(0, self.view.frame.size.height/2, self.view.frame.size.width, self.view.frame.size.height/2);
+    }
+    return _taskCenterVC;
 }
 
 @end

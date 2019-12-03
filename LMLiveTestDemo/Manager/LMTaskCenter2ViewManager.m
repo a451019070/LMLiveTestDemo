@@ -7,8 +7,36 @@
 //
 
 #import "LMTaskCenter2ViewManager.h"
+#import "LMTaskCenter2View.h"
+
+@interface LMTaskCenter2ViewManager ()
+
+@property (nonatomic, strong) LMTaskCenter2View *taskCenter2View;
+
+
+@end
+
 
 @implementation LMTaskCenter2ViewManager
+
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self addSubview:self.taskCenter2View];
+    }
+    return self;
+}
+
+
+- (LMTaskCenter2View *)taskCenter2View{
+    if (!_taskCenter2View) {
+        _taskCenter2View = [[LMTaskCenter2View alloc] initWithFrame:self.bounds];
+    }
+    return _taskCenter2View;
+}
+
 
 /*
 // Only override drawRect: if you perform custom drawing.

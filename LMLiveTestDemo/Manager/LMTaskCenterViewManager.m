@@ -16,7 +16,8 @@
 
 @end
 
-//此类 类似 LMTaskCenterViewController
+//此类 类似 LMTaskCenterViewController (LMTaskCenterController)
+//处理所有子视图的逻辑,请求可以放在此类中(MVC),也可以再创建一个ViewModel作为网络层(MVVM),(LMTaskCenterViewManager是C,LMTaskCenterView是V,model),如果需要父类处理则用回调传出去
 @implementation LMTaskCenterViewManager
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -38,8 +39,7 @@
 
 - (UIView *)taskCenterView{
     if (!_taskCenterView) {
-        _taskCenterView = [[LMTaskCenterView alloc] initWithFrame:self.frame];
-        _taskCenterView.backgroundColor = [UIColor redColor];
+        _taskCenterView = [[LMTaskCenterView alloc] initWithFrame:self.bounds];
     }
     return _taskCenterView;
 }
