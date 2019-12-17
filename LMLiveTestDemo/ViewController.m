@@ -29,7 +29,7 @@
     
     UIButton *btn = [UIButton buttonWithType:(UIButtonTypeSystem)];
     btn.frame = CGRectMake(100, 100, 100, 100);
-    [btn setTitle:@"按钮" forState:(UIControlStateNormal)];
+    [btn setTitle:@"跳转按钮/按钮" forState:(UIControlStateNormal)];
     [btn addTarget:self action:@selector(btnHandleEvent:) forControlEvents:(UIControlEventTouchUpInside)];
     [self.view addSubview:btn];
     
